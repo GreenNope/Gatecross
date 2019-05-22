@@ -13,6 +13,7 @@ function drawWithObject (x, y, object) {
     context.fillStyle = "#00BB00";
     context.strokeStyle = "000000";
     context.fillRect(x * size, y * size, size, size)
+    context.strokeRect(x * size, y * size, size, size)
   }
 
 }
