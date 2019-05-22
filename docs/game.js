@@ -11,7 +11,7 @@ for(var y = 0; y<world.length; y++) {
 function drawWithObject (x, y, object) {
   if(object.type == "grass") {
     context.fillStyle = "#00BB00";
-    ctx.strokeStyle = "#FF0000";
+    context.strokeStyle = "#FF0000";
     context.fillRect(x * size, y * size, size, size)
   }
 
