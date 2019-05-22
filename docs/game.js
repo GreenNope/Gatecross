@@ -9,6 +9,7 @@ for(var y = 0; y<world.length; y++) {
 
 function drawWithObject (x, y, object) {
   if(object.type == "grass") {
+    ctx.fillStyle = "#00BB00";
     context.fillRect(x * 10, y * 10, 10, 10)
   }
 
