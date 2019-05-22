@@ -1,3 +1,4 @@
+var size = 40
 var canvas = document.getElementById("gameCanvas")
 var context = canvas.getContext("2d")
 var world = [[{type: "grass"}]]
@@ -10,7 +11,7 @@ for(var y = 0; y<world.length; y++) {
 function drawWithObject (x, y, object) {
   if(object.type == "grass") {
     ctx.fillStyle = "#00BB00";
-    context.fillRect(x * 10, y * 10, 10, 10)
+    context.fillRect(x * size, y * size, size, size)
   }
 
 }
