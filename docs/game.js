@@ -1,4 +1,4 @@
-var canvas = getElementById("gameCanvas")
+var canvas = document.getElementById("gameCanvas")
 var context = canvas.getContext("2d")
 var world = [[{type: "grass"}]]
 for(var y = 0; y<world.length; y++) {
