@@ -1,4 +1,4 @@
-var size = 40
+var size = 32
 var canvas = document.getElementById("gameCanvas")
 var context = canvas.getContext("2d")
 var world = [[{type: "grass"}]]
